@@ -9,6 +9,7 @@ readme = "README.md"
 python = ">=3.12"
 fastapi = {extras = ["all"], version = "^0.115.12"}
 mypy = "^1.15.0"
+aiofiles = "^24.1.0"
 
 
 [build-system]
