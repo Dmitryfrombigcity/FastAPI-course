@@ -13,6 +13,8 @@ aiofiles = "^24.1.0"
 itsdangerous = "^2.2.0"
 bcrypt = "^4.3.0"
 passlib = "^1.7.4"
+pyjwt = "^2.10.1"
+cryptography = "^44.0.3"
 
 
 [build-system]
