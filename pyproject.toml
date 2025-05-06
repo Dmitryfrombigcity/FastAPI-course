@@ -6,7 +6,7 @@ authors = ["Dmitry Morozov <morozov124@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.12"
+python = ">=3.12, <4.0"
 fastapi = {extras = ["all"], version = "^0.115.12"}
 mypy = "^1.15.0"
 aiofiles = "^24.1.0"
@@ -15,6 +15,7 @@ bcrypt = "^4.3.0"
 passlib = "^1.7.4"
 pyjwt = "^2.10.1"
 cryptography = "^44.0.3"
+slowapi = "^0.1.9"
 
 
 [build-system]
