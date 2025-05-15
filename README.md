@@ -1,0 +1,1 @@
+## Задачи для курса [Быстрый старт в FastAPI Python](https://stepik.org/course/179694/ "https://stepik.org/course/179694/").
