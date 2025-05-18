@@ -16,7 +16,8 @@ async def check_permission(
         user: Annotated[UserSchema, Depends(get_current_user)]
 
 ) -> None:
-    if username not in resources.keys():
+    if request.method != "POST" and \
+            username not in resources.keys():
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
             detail="Resource not found"
